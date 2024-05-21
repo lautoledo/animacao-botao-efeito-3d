@@ -1,0 +1,50 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.three-d-button {
+  padding: 25px 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #C71585;
+  border: none;
+  cursor: pointer;
+  perspective: 1000px;
+  outline: none;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.three-d-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #C71585;
+  transition: transform 0.3s;
+  transform-origin: center left;
+  transform: rotateY(90deg);
+}
+
+.three-d-button:hover::before {
+  transform: rotateY(0);
+}
+
+.three-d-button:hover {
+  color: #8B008B;
+  background-color: transparent;
+}
+
+.three-d-button span {
+  display: block;
+  transition: transform 0.3s;
+}
+
+.three-d-button:hover span {
+  transform: translateX(-100%);
+}
