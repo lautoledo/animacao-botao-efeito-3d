@@ -15,4 +15,4 @@ Confira no seguinte link:
 
 ## Breve exibição da animação 📔
 
-![gif](https://github.com/lautoledo/animacaoimgzoom/blob/22f5ac699872be182b34846f952c98168aaf6266/bandicam%202024-05-20%2020-55-00-402.gif)
+![gif](https://github.com/lautoledo/animacao-botao-efeito-3d/blob/main/bot%C3%A3o-3D-colorido.gif)
